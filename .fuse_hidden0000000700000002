@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios de Ingeniería Agrícola en Valencia | Consultoría Agrícola Integral</title>
+<meta name="description" content="Servicios de ingeniería agrícola y rural en Valencia: trámites y segregaciones parcelarias, asesoramiento agronómico, construcción rural y eficiencia energética e hídrica.">
+<link rel="canonical" href="https://www.consultoriaagricolaintegral.es/servicios.html">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo" aria-label="Consultoría Agrícola Integral - Inicio">
+      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="17" cy="17" r="17" fill="#1f3d2e"/>
+        <path d="M9 20c3-8 8-11 16-11-1 8-6 13-16 13-1 0-2 0-3-1z" fill="#a9c99b"/>
+        <path d="M9 20c0-5 2-8 5-10" stroke="#faf8f3" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <span>Consultoría Agrícola Integral<span class="tagline">Ingeniería Agrícola y Rural</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="herramientas-ia.html">Herramientas IA</a>
+      <a href="sobre-nosotros.html">Sobre nosotros</a>
+      <a href="contacto.html" class="nav-cta">Contacta ahora</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / Servicios</p>
+      <h1>Servicios de ingeniería agrícola y rural</h1>
+      <p class="lead">Cuatro áreas de trabajo que cubren la mayoría de necesidades técnicas de una explotación agrícola en la provincia de Valencia, cada una apoyada en herramientas propias de IA.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid">
+        <div class="card">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4h7v7H4V4zM13 13h7v7h-7v-7z" stroke="#1f3d2e" stroke-width="1.8"/><path d="M4 13l9-9" stroke="#1f3d2e" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Trámites y gestión de parcelas</h3>
+          <p>Segregaciones y agrupaciones parcelarias, deslindes, legalización de edificaciones y explotaciones, tramitación de ayudas agrarias y PAC.</p>
+          <a href="servicio-tramites-parcelarios.html" class="card-link">Ver detalle →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3v18M6 8c0 3 3 3 6 3s6 0 6-3M6 16c0 3 3 3 6 3s6 0 6-3" stroke="#1f3d2e" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Asesoramiento agronómico</h3>
+          <p>Planes de abonado ajustados a análisis de suelo, planificación de cultivos, seguimiento fitosanitario y recomendaciones de manejo.</p>
+          <a href="servicio-asesoramiento-agronomico.html" class="card-link">Ver detalle →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 20V10l8-6 8 6v10" stroke="#1f3d2e" stroke-width="1.8"/><path d="M9 20v-6h6v6" stroke="#1f3d2e" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Construcción rural</h3>
+          <p>Proyecto y dirección de obra de naves agrícolas, almacenes, balsas de riego e instalaciones ganaderas, con toda la tramitación asociada.</p>
+          <a href="servicio-construccion-rural.html" class="card-link">Ver detalle →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" stroke="#1f3d2e" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Eficiencia energética e hídrica</h3>
+          <p>Auditorías de consumo de agua y energía, riego de precisión, telecontrol y proyectos de autoconsumo solar para bombeo y frío.</p>
+          <a href="servicio-eficiencia-hidrica-energetica.html" class="card-link">Ver detalle →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="franja">
+    <div class="container">
+      <h2>¿No sabes por dónde empezar?</h2>
+      <p>Cuéntame tu situación y te oriento sin compromiso sobre el mejor camino técnico y administrativo.</p>
+      <a href="contacto.html" class="btn btn-secondary">Contactar ahora</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Consultoría Agrícola Integral</h4>
+      <p>Ingeniería técnica agrícola y rural en la provincia de Valencia. Contacto directo, sin redes sociales ni intermediarios.</p>
+    </div>
+    <div>
+      <h4>Servicios</h4>
+      <ul>
+        <li><a href="servicio-tramites-parcelarios.html">Trámites y parcelas</a></li>
+        <li><a href="servicio-asesoramiento-agronomico.html">Asesoramiento agronómico</a></li>
+        <li><a href="servicio-construccion-rural.html">Construcción rural</a></li>
+        <li><a href="servicio-eficiencia-hidrica-energetica.html">Eficiencia energética e hídrica</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li>Email: info@consultoriaagricolaintegral.es</li>
+        <li>Teléfono: 692 03 27 85</li>
+        <li>Zona de servicio: provincia de Valencia</li>
+        <li><a href="contacto.html">Formulario de contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Consultoría Agrícola Integral. Todos los derechos reservados.</span>
+    <span>Ingeniería técnica agrícola · Provincia de Valencia</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
