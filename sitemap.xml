@@ -56,9 +56,15 @@
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/blog.html</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.consultoriaagricolaintegral.es/post-ayudas-industria-agroalimentaria-2026.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/post-plan-renove-maquinaria-agraria-2026.html</loc>
