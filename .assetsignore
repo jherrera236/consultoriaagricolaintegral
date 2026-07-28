@@ -1,0 +1,6 @@
+.git
+.gitignore
+.DS_Store
+.fuse_hidden*
+*.md
+Gemini_Generated_Image_*.png
