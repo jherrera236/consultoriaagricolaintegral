@@ -62,9 +62,21 @@
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/blog.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.consultoriaagricolaintegral.es/post-ayudas-modernizacion-explotaciones-2026.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.consultoriaagricolaintegral.es/post-cuaderno-explotacion-fertilizacion-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/post-plan-abonado-obligatorio-2026.html</loc>
