@@ -62,9 +62,15 @@
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/blog.html</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.consultoriaagricolaintegral.es/post-mosca-fruta-sanidad-vegetal-2026.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/post-asesoramiento-fertilizacion-obligatorio-2026.html</loc>
