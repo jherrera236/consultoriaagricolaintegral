@@ -152,8 +152,16 @@
           La primera vez que alguien envíe el formulario, FormSubmit pedirá confirmar
           la dirección info@consultoriaagricolaintegral.es por correo (solo una vez).
           Alternativa equivalente: Netlify Forms si la web se aloja en Netlify.
+
+          Además, este formulario lleva atributos WebMCP (toolname, tooldescription,
+          toolparamdescription) para que un agente de IA que navegue la web con
+          soporte de document.modelContext pueda rellenarlo. El envío sigue
+          requiriendo confirmación visible del usuario: no se auto-envía.
+          Ver /js/webmcp.js y /llms.txt para el resto de herramientas expuestas.
         -->
-        <form action="https://formsubmit.co/info@consultoriaagricolaintegral.es" method="POST">
+        <form action="https://formsubmit.co/info@consultoriaagricolaintegral.es" method="POST"
+      toolname="cai-solicitar-presupuesto"
+      tooldescription="Envía una solicitud de presupuesto o consulta técnica a Consultoría Agrícola Integral (nombre, teléfono, email, servicio de interés, municipio y descripción del caso). El equipo responde personalmente por email; no se comparte con terceros.">
           <input type="hidden" name="_subject" value="Nueva consulta desde la web Consultoría Agrícola Integral">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="true">
@@ -161,22 +169,22 @@
           <div class="form-row">
             <div class="field">
               <label for="nombre">Nombre y apellidos *</label>
-              <input type="text" id="nombre" name="Nombre" required>
+              <input type="text" id="nombre" name="Nombre" required toolparamdescription="Nombre y apellidos de quien solicita el presupuesto o consulta.">
             </div>
             <div class="field">
               <label for="telefono">Teléfono *</label>
-              <input type="tel" id="telefono" name="Teléfono" required>
+              <input type="tel" id="telefono" name="Teléfono" required toolparamdescription="Teléfono de contacto.">
             </div>
           </div>
 
           <div class="form-row">
             <div class="field">
               <label for="email">Email *</label>
-              <input type="email" id="email" name="Email" required>
+              <input type="email" id="email" name="Email" required toolparamdescription="Email de contacto donde recibir la respuesta.">
             </div>
             <div class="field">
               <label for="servicio">Servicio de interés</label>
-              <select id="servicio" name="Servicio">
+              <select id="servicio" name="Servicio" toolparamdescription="Servicio de interés: trámites y parcelas, asesoramiento agronómico, construcción rural, eficiencia energética e hídrica, o consulta general.">
                 <option value="Trámites y gestión de parcelas">Trámites y gestión de parcelas</option>
                 <option value="Asesoramiento agronómico">Asesoramiento agronómico</option>
                 <option value="Construcción rural">Construcción rural</option>
@@ -188,12 +196,12 @@
 
           <div class="field" style="margin-bottom:18px;">
             <label for="municipio">Municipio de la parcela o explotación</label>
-            <input type="text" id="municipio" name="Municipio" placeholder="Ej. Xàtiva, Sagunto, Requena...">
+            <input type="text" id="municipio" name="Municipio" placeholder="Ej. Xàtiva, Sagunto, Requena..." toolparamdescription="Municipio donde está la parcela o explotación agrícola.">
           </div>
 
           <div class="field" style="margin-bottom:18px;">
             <label for="mensaje">Cuéntame tu caso *</label>
-            <textarea id="mensaje" name="Mensaje" rows="5" required placeholder="Describe brevemente tu parcela, explotación o el problema al que te enfrentas..."></textarea>
+            <textarea id="mensaje" name="Mensaje" rows="5" required placeholder="Describe brevemente tu parcela, explotación o el problema al que te enfrentas..." toolparamdescription="Descripción breve del caso, la parcela, la explotación o el problema técnico."></textarea>
           </div>
 
           <div class="consent">
@@ -252,5 +260,6 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="js/webmcp.js" defer></script>
 </body>
 </html>

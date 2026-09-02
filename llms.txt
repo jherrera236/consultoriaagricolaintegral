@@ -1,0 +1,35 @@
+# Consultoría Agrícola Integral
+
+> Ingeniería técnica agrícola y rural en la Comunitat Valenciana (Valencia, Castellón y Alicante): trámites y segregaciones parcelarias, asesoramiento agronómico, construcción rural, eficiencia energética e hídrica, medio ambiente, formación y ayudas GVA. Contacto directo, sin intermediarios.
+
+Sitio: https://www.consultoriaagricolaintegral.es/
+Contacto: info@consultoriaagricolaintegral.es · +34 692 03 27 85
+Zona de servicio: Comunitat Valenciana
+
+## Servicios
+
+- [Trámites y gestión de parcelas](https://www.consultoriaagricolaintegral.es/servicio-tramites-parcelarios.html): segregaciones y agrupaciones parcelarias, deslindes, legalización de edificaciones, tramitación de ayudas agrarias y PAC.
+- [Asesoramiento agronómico](https://www.consultoriaagricolaintegral.es/servicio-asesoramiento-agronomico.html): planes de abonado, análisis de suelo, planificación de cultivos, seguimiento fitosanitario.
+- [Construcción rural](https://www.consultoriaagricolaintegral.es/servicio-construccion-rural.html): proyecto y dirección de obra de naves agrícolas, almacenes, balsas de riego e instalaciones ganaderas.
+- [Eficiencia energética e hídrica](https://www.consultoriaagricolaintegral.es/servicio-eficiencia-hidrica-energetica.html): auditorías de agua y energía, riego de precisión, telecontrol, autoconsumo solar.
+- [Medio ambiente](https://www.consultoriaagricolaintegral.es/servicio-medio-ambiente.html): estudios de impacto ambiental, integración paisajística, huella de carbono.
+- [Formación para entidades](https://www.consultoriaagricolaintegral.es/servicio-formacion.html): cursos y jornadas técnicas para cooperativas, comunidades de regantes, ayuntamientos y empresas.
+- [Ayudas y subvenciones GVA](https://www.consultoriaagricolaintegral.es/servicio-ayudas-gva.html): ayudas sectoriales y de emergencia (DANA, apicultura, Huerta de València, modernización de regadíos).
+
+## Páginas
+
+- [Inicio](https://www.consultoriaagricolaintegral.es/)
+- [Todos los servicios](https://www.consultoriaagricolaintegral.es/servicios.html)
+- [Blog](https://www.consultoriaagricolaintegral.es/blog.html): actualidad y ayudas del sector agrario en la Comunitat Valenciana.
+- [Herramientas IA](https://www.consultoriaagricolaintegral.es/herramientas-ia.html): calculadoras interactivas para agricultores.
+- [Sobre nosotros](https://www.consultoriaagricolaintegral.es/sobre-nosotros.html)
+- [Contacto](https://www.consultoriaagricolaintegral.es/contacto.html)
+
+## Herramientas WebMCP para agentes de IA
+
+Este sitio implementa el borrador de especificación WebMCP (W3C Web Machine Learning Community Group, https://github.com/webmachinelearning/webmcp). Un agente de navegación con soporte para `document.modelContext` puede usar, sin necesidad de scraping visual:
+
+- **cai-buscar-servicios** (herramienta registrada vía `document.modelContext.registerTool`, disponible en todas las páginas): busca en el catálogo de servicios por palabra clave o categoría y devuelve nombre, descripción y URL de cada coincidencia.
+- **cai-solicitar-presupuesto** (formulario declarativo `toolname`/`tooldescription` en https://www.consultoriaagricolaintegral.es/contacto.html): permite rellenar y enviar la solicitud de presupuesto o consulta (nombre, teléfono, email, servicio de interés, municipio, descripción del caso). El envío final requiere confirmación visible del usuario antes de mandarse; no se auto-envía.
+
+Si tu agente no soporta WebMCP todavía, usa la información estructurada (JSON-LD Schema.org) presente en cada página, o consulta este mismo archivo y el sitemap: https://www.consultoriaagricolaintegral.es/sitemap.xml
