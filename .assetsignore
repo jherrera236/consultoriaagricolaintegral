@@ -4,5 +4,6 @@
 .wranglerignore
 .DS_Store
 .fuse_hidden*
+*.bundle
 *.md
 Gemini_Generated_Image_*.png
