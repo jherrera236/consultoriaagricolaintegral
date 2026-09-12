@@ -1,5 +1,7 @@
 .git
 .gitignore
+.wrangler
+.wranglerignore
 .DS_Store
 .fuse_hidden*
 *.md
