@@ -62,13 +62,19 @@
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/blog.html</loc>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.consultoriaagricolaintegral.es/post-ampliacion-plazo-ayudas-modernizacion-2026.html</loc>
     <lastmod>2026-09-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.consultoriaagricolaintegral.es/post-dana-caminos-regadio-deslinde-2026.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
